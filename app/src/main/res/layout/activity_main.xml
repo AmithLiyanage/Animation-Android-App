@@ -16,12 +16,12 @@
         android:background="@drawable/typing_empid_border"
         android:inputType="number"
         android:textAlignment="center"
-        android:textSize="25dp"
+        android:textSize="30dp"
         app:counterEnabled="true"
         app:counterMaxLength="5"
         app:errorEnabled="true"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -29,13 +29,14 @@
         android:id="@+id/txt_anim_empid"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
         android:text="Employee_ID"
         android:textSize="30dp"
         app:layout_constraintBottom_toBottomOf="@+id/txt_typing_empId"
         app:layout_constraintEnd_toEndOf="@+id/txt_typing_empId"
-        app:layout_constraintHorizontal_bias="0.503"
-        app:layout_constraintStart_toStartOf="@+id/txt_typing_empId" />
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/txt_typing_empId"
+        app:layout_constraintTop_toTopOf="@+id/txt_typing_empId"
+        app:layout_constraintVertical_bias="0.5" />
 
     <Button
         android:id="@+id/btn_click"
@@ -44,7 +45,7 @@
         android:text="Click"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txt_typing_empId"
         app:layout_constraintVertical_bias="0.315" />
